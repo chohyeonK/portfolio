@@ -18,7 +18,7 @@
 
 서로 다른 지역에서 출발하는 친구들이 모인다고 가정했습니다. 모임장이 초대 링크를 공유한 뒤, 참가자가 각자의 출발지와 교통수단을 입력하면 다음 흐름으로 모임 장소를 추천하고 코스를 구성할 수 있습니다.
 
-![미드미트 사용자 흐름. 모임 생성, 참가 정보 입력, 추천 요청, 결과 확인, 코스 구성](assets/midmeet-user-flow.png)
+![미드미트 사용자 흐름. 모임 생성, 참가 정보 입력, 추천 요청, 결과 확인, 코스 구성](assets/midmeet-user-flow.png?raw=true)
 
 1. **초대 링크로 참여할 때 · React와 Zustand**  
    초대 링크로 들어온 참가자가 출발지 주소와 교통수단을 입력하는 화면을 구현했습니다. 제출할 때는 Zustand에서 현재 모임 ID를 가져오고, 폼에서 받은 주소와 교통수단을 해당 모임의 참여 API에 보냈습니다. [참가 정보 제출 코드](https://github.com/chohyeonK/midmeet-frontend/blob/master/src/pages/party/JoinInput.tsx#L12-L48)
